@@ -322,7 +322,9 @@ i.fas.fa-plane-departure{
     flex-wrap: wrap;
     justify-content: center;
 }
-
+div#camp {
+    top: 55%;
+}
 .contact-us-options-box{
 	width: 30%;
  	min-height: 300px;
@@ -345,7 +347,7 @@ i.fas.fa-plane-departure{
 }
 div#ruins {
     position: absolute;
-    top: 50%;
+    top: 90%;
 }
 /*-------------------------------------------------type writing style*/
 .cover-section-text h1 {
@@ -667,6 +669,10 @@ slideShow {  0% {
 }
 .sun{
   display: none;
+}
+div#ruins{
+  position: absolute;
+  top: 25%;
 }
 .nav-menu-mobile-list ul {
     background-color: #e4dfdf;
