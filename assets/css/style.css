@@ -732,6 +732,9 @@ i.fas.fa-bars {
 .hamburger-menu-mobile{
 	display: block;
 }
+div#camp{
+  top: 25%
+}
 }
 /*------------------------------------------------------------------------mobile*/
 @media only screen and (min-width: 320px) and (max-width: 450px){
