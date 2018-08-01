@@ -15,7 +15,7 @@
 	width: 100%;
 }
 .slide-section {
-    float: left;
+    float: left; 
     background-color: skyblue;
     height: 100vh;
     width: 100%;
@@ -777,7 +777,6 @@ div#ruins {
     display: block;
 }
 .contact-us-options-container{
-	display: unset; 
   	justify-content: unset; 
 }
 .contact-us-options-box{
