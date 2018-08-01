@@ -347,7 +347,6 @@ div#camp {
 }
 div#ruins {
     position: absolute;
-    top: 90%;
 }
 /*-------------------------------------------------type writing style*/
 .cover-section-text h1 {
@@ -656,6 +655,15 @@ slideShow {  0% {
 .slider-text-container p {
     text-align: left;
 }
+div#lakawon {
+  display: none;
+}
+div#ruins{
+  display: none;
+}
+div#camp{
+  display: none;
+}
 /*--------------------------------------------------------------------------------TAB MEDIA*/
 @media only screen and (max-width: 1024px){
 .content-section-navbar ul {
@@ -672,7 +680,15 @@ slideShow {  0% {
 }
 div#ruins{
   position: absolute;
-  top: 25%;
+}
+div#camp{
+  display: none;
+}
+div#lakawon {
+  display: none;
+}
+div#ruins{
+  display: none;
 }
 .nav-menu-mobile-list ul {
     background-color: #e4dfdf;
@@ -732,9 +748,6 @@ i.fas.fa-bars {
 .hamburger-menu-mobile{
 	display: block;
 }
-div#camp{
-  top: 25%
-}
 }
 /*------------------------------------------------------------------------mobile*/
 @media only screen and (min-width: 320px) and (max-width: 450px){
@@ -746,11 +759,9 @@ div#camp{
 } 
 div#camp {
     position: absolute;
-    top: 55%;
 }
 div#ruins {
     position: absolute;
-    top: 95%;
 }
 .slider-text-container p {
     text-align: left;

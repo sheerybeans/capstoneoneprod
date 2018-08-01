@@ -118,7 +118,7 @@ $(document).ready(function(){
 	})
 
 	$('a.modal-close-btn').click(function(){
-		$('.modal-backdrop').hide();
+		$('.modal').hide();
 	})
 
 	$('button#lakawon').click(function(){
